@@ -51,3 +51,7 @@ https://www.cnblogs.com/yeyongjian/p/10886063.html
 
 
 Spring Statemachine
+
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+
+git config --global url."https://hub.fastgit.org".insteadOf https://github.com
