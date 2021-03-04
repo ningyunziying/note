@@ -1,4 +1,4 @@
-查询缓存：不推荐使用查询缓存，在MySQL 8.0中删除
+查询缓存：从MySQL 5.7.20不推荐使用查询缓存，在MySQL 8.0中删除
 
 # 三、启动选项和配置文件
 
@@ -23,7 +23,7 @@ mysqld --skip_networking
 在按照上述命令启动服务器程序后，如果我们再使用`mysql`来启动客户端程序时，再把服务器主机名指定为`127.0.0.1`（IP地址的形式）的话会显示连接失败：
 
 ```
- mysql -h127.0.0.1 -uroot -p
+mysql -h127.0.0.1 -uroot -p
 Enter password:
 
 ERROR 2003 (HY000): Can't connect to MySQL server on '127.0.0.1' (61)
